@@ -1,0 +1,189 @@
+extends layout
+
+block content
+  .tudo
+    section.menu 
+      header.menu__header
+        img(class="menu__header--image", src="images/vector.png")
+        h3.menu__title vanxgse.html
+      nav.menu__nav
+        ul.menu__list
+          li.menu__list__item
+            a(href="#sobre-mi") Sobre mi
+          li.menu__list__item
+            a(href="#skills") Skills
+          li.menu__list__item
+            a(href="#formacion") Formación
+          li.menu__list__item
+            a(href="#xp") Proyectos
+          li.menu__list__item
+            a(href="#contacto") ivanugs@icloud.com
+        li.menu__list__item__contato
+          a(href="#contacto") Contacto
+    
+    section.title
+      .title__div 
+        img(class="title__profile" src="images/profile.png")
+        .title__container 
+          p.title__bio 
+            | Hola, mi nombre es 
+            span(class="title__bio--nombre") Iván 
+            | y construyo paginas web 🧑🏽‍💻
+          p.title__subsection 
+            | Ingeniero en Sistemas Computacionales
+            | especializado en construir increibles experiencias
+            | digitales. Actualmente, estoy enfocado en el
+            | desarrollo full-stack.
+          ul.title__network 
+            li.title__network__item
+              a(href="http://github.com/vanxgse") 
+                img(src="images/github-dark.svg", style="width: 40px;")
+            li.title__network__item
+              a(href="https://www.linkedin.com/in/ivan-gonzalez-segundo-b052992aa/") 
+                img(src="images/linkedin.svg", style="width: 40px;")
+            li.title__network__item
+              a(href="https://www.instagram.com/van.xgse") 
+                img(src="images/instagram_dark.svg", style="width: 40px;")
+
+    section(class="about", id="sobre-mi")
+      .about__container
+        h3.about__title Sobre mi
+        p.about__paragraph 
+          | ¡Hola! Soy Iván, Ingeniero en Sistemas Computacionales con una pasion por el desarrollo web.
+          | Con 2 años de experiencia en la industria, he trabajado en una variedad de proyectos que abarcan desde landings hasta aplicaciones web interactivas.
+
+    section(class="skills", id="skills")
+      h3.skills__title Skills
+      .skills__line
+        // Seccion frontend
+        h4 Frontend
+        .skills_section
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/html5.svg")
+              li.skills__name HTML 5
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/css.svg")
+              li.skills__name CSS
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/javascript.svg")
+              li.skills__name Javascript
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/React_dark.svg")
+              li.skills__name React
+        // Seccion backend
+        h4 Backend
+        .skills_section
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/php_dark.svg")
+              li.skills__name PHP
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/nodejs.svg")
+              li.skills__name Node JS
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/csharp.svg")
+              li.skills__name .NET
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/mongodb.svg")
+              li.skills__name MongoDB
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/mysql.svg")
+              li.skills__name MySQL
+          .skills__box
+            ul
+              li.skills__img 
+                img(src="images/sql-server.svg")
+              li.skills__name SQL Server 
+
+    section(class="academic", id="formacion")
+      h2.academic__title Formación académica
+      .academic__courses
+        .academic__courses__box 
+          ul.academic__courses__list
+            li.academic__courses__item__img 
+              img(src="images/ittj_logo.png")
+            li.academic__courses__item__title Ingeniería en Sistemas Computacionales
+            li.academic__courses__item__subtitle 2020 - 2024 - ITTJ
+        .academic__courses__box 
+          ul.academic__courses__list
+            li.academic__courses__item__img 
+              img(src="images/alura_logo.png")
+            li.academic__courses__item__title Formación en Frontend Developer
+            li.academic__courses__item__subtitle 2024 - ONE - Alura Latam
+
+    section(class="experience", id="xp")
+      h2.expierence__section__title Experiencia Profesional
+      .experience__cards 
+        .experience__box 
+          img(class="experience__img", src="images/herbario.png", alt="", srcset="")
+          .experience__info 
+            h2.experience__title Herbario Virtual ITTJ
+            h3.experience__text Proyecto ITTJ
+            .experience__description 
+              span.experience__repo 
+                a(target="_blank", href="https://github.com/vanxgse/ITTJ")
+                  button.experience__boton--repo Repositorio
+        .experience__box 
+          img(class="experience__img", src="images/sistema_bioreactor.png", alt="", srcset="", style="max-height: 550px;")
+          .experience__info 
+            h2.experience__title Sistema integrado para la gestión de biorreactores para cultivos in vitro
+            h3.experience__text Proyecto de titulación
+            .experience__description 
+              span.experience__repo 
+                a(target="_blank", href="https://github.com/luischitala/bio_reactor.git")
+                  button.experience__boton--repo Repositorio
+        .experience__box 
+          img(class="experience__img", src="images/safetool.png", alt="", srcset="")
+          .experience__info 
+            h2.experience__title Safetool - Gestión y consulta de análisis de riesgo
+            h3.experience__text Aplicacion web desarrollada para Continental México R&D
+
+    section(class="formcontato", id="contacto")
+      .formcontato__contacto 
+        .formcontato--izquierda
+          img(class="formcontato__img", src="images/contact_image.png", alt="", srcset="")
+        .formcontato__text 
+          h2.formcontato__title Contacto
+          h3.formcontato__subtext Complete el siguiente formulario y me pondre en contacto con usted lo antes posible.
+          form(class="formcontato__form", name="form", onsubmit="return validateForm()")
+            .formcontato__input__group 
+              input(type="input", class="formcontato__input__field", placeholder="Nombre", name="name", id="name")
+              label(for="name", class="formcontato__input__label") Nombre
+              span(id="nombre-error", class="error-message")
+            .formcontato__input__group 
+              input(type="email", class="formcontato__input__field", placeholder="Correo electronico", name="email", id="email")
+              label(for="email", class="formcontato__input__label") Correo electronico
+              span(id="email-error", class="error-message")
+            .formcontato__input__group 
+              input(type="text", class="formcontato__input__field", placeholder="Asunto", name="asunto", id="asunto")
+              label(for="asunto", class="formcontato__input__label") Asunto
+              span(id="asunto-error", class="error-message")
+            .formcontato__input__group 
+              textarea(,class="formcontato__input__field", name="mensaje", cols="40", rows="5", id="mensaje") 
+              label(for="mensaje", class="formcontato__input__label") Mensaje
+              span(id="mensaje-error", class="error-message")
+            button(type="submit", class="formcontato__boton", id="submit-btn") Enviar mensaje
+
+    section(class="footer")
+      .footer__rodape 
+        p Desarrollado por Iván González 
+        p Copyright 2025
+
+  script(src="javascripts/validacion.js") 

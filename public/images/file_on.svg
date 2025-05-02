@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   fill="#ffffff"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="file_on.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:export-filename="file_on.svg"
+   inkscape:export-xdpi="115.89506"
+   inkscape:export-ydpi="115.89506"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="20.325"
+     inkscape:cx="18.302583"
+     inkscape:cy="19.753998"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 19.37116,6.4266526 13.14386,0.57074638 A 1.8368657,1.7664112 0 0 0 11.828233,0.05263122 H 3.1826848 A 3.1324449,3.0122975 0 0 0 0.05023985,3.0649286 V 20.994123 A 3.1412157,3.0207319 0 0 0 3.1826848,24.006421 H 16.802555 A 3.1412157,3.0207319 0 0 0 19.935,20.994123 V 7.7159159 A 1.8669371,1.7953293 0 0 0 19.37116,6.4266526 Z M 17.779878,6.6073905 H 14.84791 A 1.8794669,1.8073785 0 0 1 12.968443,4.800012 V 2.0889443 Z m 0.902144,14.3867325 a 1.8794669,1.8073785 0 0 1 -1.879467,1.807379 H 3.1826848 A 1.8794669,1.8073785 0 0 1 1.3032179,20.994123 V 3.0649286 A 1.8794669,1.8073785 0 0 1 3.1826848,1.2575502 H 11.715465 V 4.800012 a 3.1324449,3.0122975 0 0 0 3.132445,3.0122974 h 3.834112 z"
+     id="path1"
+     style="stroke-width:1.22871" />
+  <text
+     xml:space="preserve"
+     style="font-size:15.7275px;line-height:0;font-family:Consolas;-inkscape-font-specification:Consolas;letter-spacing:-0.442337px;word-spacing:0px;fill:#888882;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+     x="1.946224"
+     y="19.744556"
+     id="text1"
+     inkscape:export-filename="..\Desktop\my-portfolio\assets\file_on.svg"
+     inkscape:export-xdpi="145.1796"
+     inkscape:export-ydpi="145.1796"
+     transform="scale(1.0197478,0.98063461)"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7275px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:-0.442337px;fill:#f9f9f9;stroke-width:0"
+       x="1.946224"
+       y="19.744556">cv</tspan></text>
+</svg>
